@@ -1,0 +1,34 @@
+{"errors":
+    [
+        {
+            "line":"131",
+            "errorType":"parse-error",
+            "context":"footer .copyright",
+            "message":"Value Error :  top (nullvisuren.html#propdef-top)\n        \n                                attempt to find a semi-colon before the property name. add it",
+            "uri":"file://localhost/TextArea"
+        },
+        {
+            "line":"206",
+            "errorType":"parse-error",
+            "context":"footer .copyright",
+            "errorSubtype":"unrecognized",
+            "skippedString":"ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\nfooter ul li {\n  display: inline-block;\n}\n\na.social {\n  display: inline-block;\n  text-indent: -9999px;\n  margin-left: 5px;\n  width: 30px;\n  height: 30px;\n  background-size: 30px 30px;\n  opacity: .4;\n  transition: all .5s;\n}\na.twitter {\n  background-image: url(images/twitter.svg);\n}\na.linkedin {\n  background-image: url(images/linkedin.svg);\n}\na.github {\n  background-image: url(images/github.svg);\n}\na.social:hover {\n  opacity: 1;\n}\n.clearfix {\n  clear: both;\n}\n\n/* Styles for larger screens */\n@media screen and (min-width: 720px) {\n  \n  .flex {\n      display: -ms-flexbox;      /* TWEENER - IE 10 */\n      display: flex; \n      max-width: 1200px;\n      -ms-flex-pack: distribute;\n      justify-content: space-around;\n      margin: 0 auto;\n  }\n\n  header {\n    min-height: 470px;\n  }\n\n  .nav {\n    max-width: 1200px;\n    padding: 0 30px;\n  }\n\n\n  main {\n    padding-top: 20px\n  }\n\n  main p {\n    line-height: 1.6em;\n  }\n\n  footer {\n    font-size: 1.3em;\n    max-width: 1200px;\n    margin: 40px auto;\n  }\n\n}",
+            "type":"generator.unrecognize",
+            "message":"Parse Error",
+            "uri":"file://localhost/TextArea"
+        },
+        {
+            "line":"206",
+            "errorType":"parse-error",
+            "context":"footer .copyright",
+            "errorSubtype":"unrecognized",
+            "skippedString":"[empty string]",
+            "type":"generator.unrecognize",
+            "message":"Parse Error",
+            "uri":"file://localhost/TextArea"
+         }
+      ],
+    "warnings":[]
+ }
+ 
+ function code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $*; }
